@@ -1,0 +1,144 @@
+* {
+	font-family: "Mountains of Christmas";
+	font-weight: bold;
+	margin: 0;
+}
+body {
+	background-color: #4caf50;
+}
+button {
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 10px 20px;
+	background-color: #e7e7e7;
+	color: black;
+	border-radius: 5px;
+	border: none;
+}
+button:hover {
+	font-size: 1.4rem;
+	transition: 0.3s;
+}
+.card {
+	background-color: white;
+	width: 350px;
+	height: 500px;
+	margin: 0;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 80px;
+	box-shadow: 10px 5px 5px black;
+}
+.card-top {
+	display: flex;
+	justify-content: start;
+}
+.card-mid {
+	display: flex;
+	justify-content: center;
+}
+.card-bot {
+	display: flex;
+	rotate: 180deg;
+}
+.red {
+	color: red;
+}
+.modal-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0, 0, 0, 0.5);
+	transition: 0.2s;
+}
+.modal {
+	margin: auto;
+	margin-top: 20vh;
+	width: 50vw;
+	height: 50vh;
+	background-color: aliceblue;
+	border-radius: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	/* box-shadow: 10px 10px 10px 20px rgba(0, 0, 0, 0.2); */
+}
+.modal-title {
+	font-size: 3rem;
+	margin: 0;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgb(245, 110, 110);
+}
+.modal-body {
+	font-size: 1.4rem;
+	border-top: 1px sol black;
+}
+.modal-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.modal-validation {
+	color: red;
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.3rem;
+}
+.modal-validation,
+p {
+	margin-bottom: 0.2rem;
+}
+.second-card {
+	background-color: white;
+	width: 50px;
+	height: 100px;
+	margin: 0;
+	margin-top: 50px;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	box-shadow: 10px 5px 5px black;
+}
+.bi-arrow-repeat {
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 4rem;
+}
+.bi-arrow-repeat:hover {
+	font-size: 5rem;
+	transition: 0.3s;
+}
+.card-father {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0;
+}
+.box-player {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.top-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+.hidden {
+	display: none;
+}

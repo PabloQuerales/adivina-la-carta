@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="/style.css" />
+		<link rel="shortcut icon" href="/img/joker_12425707.png" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+		<script></script>
+		<title>¡ADIVINA LA CARTA!</title>
+	</head>
+	<body>
+		<div class="modal-background">
+			<div class="modal">
+				<div class="modal-header">
+					<h1 class="modal-title">¡ADIVINA LA CARTA!</h1>
+				</div>
+				<div class="modal-body">
+					<p>
+						Bienvenido aventurero, el día de hoy voy a retar tu suerte, jugaremos algo divertido, DIME UN NUMERO DEL 1 AL 10 y si es igual al de la
+						carta, te ganarás un abrazo de Luis! SUERTE!!!!!!
+					</p>
+				</div>
+				<div>
+					<label for="number">NUMERO DEL 2 AL 10</label>
+					<input type="number" class="input-value" />
+				</div>
+				<div class="modal-footer">
+					<div class="modal-validation"></div>
+					<button type="button" class="btn" id="submit">VAMOS A JUGAR</button>
+				</div>
+			</div>
+		</div>
+		<div class="card-father">
+			<div class="card hidden">
+				<!-- ESTO SE RELLENA CON JS -->
+			</div>
+			<div class="player-card hidden">
+				<!-- ESTO SE RELLENA CON JS -->
+			</div>
+		</div>
+		<script src="/card.js"></script>
+	</body>
+</html>
