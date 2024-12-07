@@ -142,3 +142,16 @@ p {
 .hidden {
 	display: none;
 }
+input {
+	border-radius: 5px;
+	border: 1px solid red;
+	outline: none;
+	width: 50px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
