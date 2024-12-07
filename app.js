@@ -1,6 +1,6 @@
 // OBJETOS CON LOS VALORES Y PALOS DE LAS CARTAS
 let palo = ["♦", "♥", "♠", "♣"]
-let value = [2,3,4,5,6,7,8,9,10,"J","Q","K","A"] 
+let value = [2,3,4,5,6,7,8,9,10] 
 let poker = [palo,value]
 let randomCard = []
 
@@ -56,8 +56,9 @@ btn.addEventListener("click", ()=>{
         <span>ESTA ES TU CARTA</span>
       </div>
     </div>  
-    <div>
+    <div class="bot-section">
     <i class="bi bi-arrow-repeat"></i>
+    <p>VOLVER A JUGAR</p>
     </div>
   </div>  
   `
