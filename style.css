@@ -55,7 +55,7 @@ button:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.5);
 }
 .modal {
 	margin: auto;
@@ -127,10 +127,6 @@ p {
 	background-color: transparent;
 	cursor: pointer;
 	font-size: 4rem;
-}
-.bi-arrow-repeat:hover {
-	font-size: 5rem;
-	transition: 0.3s;
 }
 .card-father {
 	display: flex;
