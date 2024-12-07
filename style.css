@@ -70,7 +70,20 @@ button:hover {
 	justify-content: center;
 	align-items: center;
 	gap: 0.5rem;
-	/* box-shadow: 10px 10px 10px 20px rgba(0, 0, 0, 0.2); */
+}
+.winner-modal {
+	margin: auto;
+	margin-top: 20vh;
+	width: 20vw;
+	height: 40vh;
+	background-color: aliceblue;
+	border-radius: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
 }
 .modal-title {
 	font-size: 3rem;

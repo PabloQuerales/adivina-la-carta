@@ -66,7 +66,23 @@ btn.addEventListener("click", ()=>{
 let buttomRepeat = document.querySelector(".bi-arrow-repeat")
 // VALIDA SI GANASTE
 if(numeroEscogido == randomCard[1]){
-  console.log("ganaste")
+  buttomRepeat.innerHTML=`
+  <div class="modal-background">
+		<div class="winner-modal">
+			<div class="modal-header">
+				<h1 class="modal-title">¡GANASTE!</h1>
+			</div>
+			<div class="modal-body">
+				<p>
+          FELICIDADES GANADOR, AHORA TE RETO A SUBIR DE NIVEL Y SEGUIR PROBANDO TU SUERTE.
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn" id="submit">VAMOS A JUGAR</button>
+			</div>
+		</div>
+	</div>
+  `
 }
 // EVENTO QUE LLAMA A LA FUNCION DE RECARGAR PAGINA
   buttomRepeat.addEventListener("click", ()=>{
