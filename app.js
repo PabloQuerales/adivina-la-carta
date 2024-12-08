@@ -79,7 +79,8 @@ if(numeroEscogido == randomCard[1]){
 				</p>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn" id="submit">VAMOS A JUGAR</button>
+				<button type="button" class="btn btn-play-again" id="submit">VOLVER A JUGAR</button>
+        <button type="button" class="btn btn-level-up" id="submit">SUBIR DE NIVEL</button>
 			</div>
 		</div>
 	</div>

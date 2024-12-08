@@ -16,11 +16,14 @@ button {
 	color: black;
 	border-radius: 5px;
 	border: none;
+	margin-bottom: 0.8rem;
 }
 button:hover {
-	font-size: 1.4rem;
-	transition: 0.3s;
+	color: red;
+	text-decoration: underline;
+	transition: 0.5s;
 }
+
 .card {
 	background-color: white;
 	width: 350px;
@@ -127,6 +130,11 @@ p {
 	background-color: transparent;
 	cursor: pointer;
 	font-size: 4rem;
+}
+
+.bi-arrow-repeat:hover {
+	color: goldenrod;
+	transition: 0.3s;
 }
 .card-father {
 	display: flex;
